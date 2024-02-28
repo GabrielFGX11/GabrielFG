@@ -70,6 +70,25 @@ a:hover {
 main {
     padding: 20px;
 }
+/* Estilos para o texto do sobre mim */
+.sobre-mim {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para o título do sobre mim */
+.sobre-mim h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para o texto do sobre mim */
+.sobre-mim p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
 
 /* Estilos para o rodapé */
 footer {
