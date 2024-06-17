@@ -2,17 +2,18 @@
 body {
     background-color: #f2f2f2;
     color: #333;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Fonte simples e bonita */
 }
 
 /* Estilos para o cabeçalho */
-
 header {
-    background-color: #5a5a5a;
+    background-color: #333;
     color: #ffffff;
     padding: 50px;
     text-align: center;
 }
+
+/* Estilos para o logo no cabeçalho */
 .logo {
     width: 100px; /* Defina a largura desejada para a sua imagem */
     height: auto; /* Mantém a proporção da imagem */
@@ -20,12 +21,7 @@ header {
     border-radius: 50%; /* Adiciona um efeito de borda circular à imagem */
 }
 
-.imgSeaDarkness {
-    width: 800px; /* Defina a largura desejada para a sua imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto do cabeçalho */
-}
-
+/* Estilos para o cabeçalho com imagem de fundo */
 .header-bg {
     padding: 50px;
     background-image: url('src/planoDeFundo.jpg');
@@ -34,6 +30,7 @@ header {
     height: 200px; /* Define a altura do elemento */
 }
 
+/* Estilos para o título no cabeçalho */
 header h1 {
     font-size: 36px;
     font-weight: bold;
@@ -49,7 +46,7 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: left; /* Alinhar os itens do menu à esquerda */
 }
 
 nav li a {
@@ -63,45 +60,31 @@ nav li a {
 nav li a:hover {
     background-color: #666;
 }
-a:hover {
-    color: #0bf5ce;
-}
 
 /* Estilos para os links */
 a {
     color: #00ccff;
 }
 
+a:hover {
+    color: #0bf5ce;
+}
 
 /* Estilos para o conteúdo principal */
 main {
     padding: 20px;
 }
 
-.imgSeaDarkness {
-    transition: all 0.3s ease;
-    border-radius: 10px; /* Borda arredondada */
-}
-
-.imgSeaDarkness:hover {
-    content: url('src/SDdark.png');
-}
-
-.projetos {
+.titulos {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px; /* Borda arredondada */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-.projetos h2 {
+.titulos h2 {
     font-size: 24px;
     font-weight: bold;
-}
-
-.projetos p {
-    font-size: 16px;
-    line-height: 1.5; /* Espaçamento entre linhas */
 }
 
 /* Estilos para o rodapé */
